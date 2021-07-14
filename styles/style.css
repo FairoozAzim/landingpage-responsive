@@ -121,6 +121,14 @@ main {
     transition: all .5s;
 }
 
+.hero-image {
+    transition: all 2s;
+}
+
+.hero-image:hover {
+    transform: scale(1.1);
+}
+
 .live {
     width: 168px;
     height: 44px;
