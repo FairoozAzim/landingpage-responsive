@@ -118,10 +118,10 @@ main {
     background-color: var(--maroon-color);
     padding: 10px 24px;
     text-decoration: none;
-    transition: transform .5s;
+    transition: all .5s;
 }
 
-.hero-text .live {
+.live {
     transition: all .5s;
 }
 
@@ -233,6 +233,10 @@ main {
     padding: 10px 24px;
     text-decoration: none;
     margin-top: 24px;
+}
+
+.highlight-details a:hover {
+    background-color: rgb(111, 184, 184);
 }
 
 .highlight-image {
