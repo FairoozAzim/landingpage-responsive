@@ -19,10 +19,10 @@
                 <div class="navlist">
                     <ul>
                         <a href="#">Home</a>
-                        <a href="#">Club</a>
-                        <a href="#">World Cup 2023</a>
-                        <a href="#">Upoming Matches</a>
-                        <a href="#">Contact</a>
+                        <a href="#players">Players</a>
+                        <a href="#highlights">Highlights</a>
+                        <a href="#schedule">Upoming Matches</a>
+                        <a href="#footer">Contact</a>
                     </ul>
                 </div>
                 <div class="login">
@@ -33,7 +33,9 @@
             <div class="hero">
                 <div class="hero-text">
                     <h1>FC BARCELONA <br> All Latest News <br> 2021</h1>
-                    <a href="https://www.fcbarcelona.com/en/">Watch Live <i class="fas fa-arrow-right"></i></a>
+                    <div class="live">
+                        <a href="https://www.fcbarcelona.com/en/">Watch Live <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
                 <div class="hero-image">
                     <img src="images/banner.png" alt="">
@@ -46,7 +48,7 @@
     <main>
         <!------------------------------------ player grid section starts-------------->
         <section player-grid-container>
-            <div class="players">
+            <div class="players" id="players">
                 <div class="player">
                     <div class="image">
                         <img src="images/players/player-10.png" alt="">
@@ -175,7 +177,7 @@
 
         <!------------------------------------ Highlights section starts-------------->
 
-        <section class="highlights-container">
+        <section class="highlights-container" id="highlights">
             <div class="highlights">
                 <div class="highlight-details">
                     <h1 class="title">All Highlights <br> Copa America 2021</h1>
@@ -190,14 +192,14 @@
             </div>
 
         </section>
-        <section class="schedules-continer">
+        <section class="schedules-continer" id="schedule">
             <div class="schedules">
                 <h1 class="title">Upcoming Match</h1>
                 <div class="schedule-details">
 
                     <div class="schedule-date">
                         <h1>WED 21 July</h1>
-                        <h3>Match Countdown <span>07:10:60</span></h3>
+                        <h3>Match Starts At <span>07:00:00</span></h3>
 
                     </div>
                     <div class="schedule">
@@ -214,7 +216,7 @@
         <!------------------------------------ Highlights section ends-------------------->
 
         <!------------------------------------ Update section starts-------------->
-        <section class="update-container">
+        <section class="update-container" id="updates">
             <div class="updates">
                 <h1 class="title">Latest Updates</h1>
                 <div class="update-grid">
@@ -247,7 +249,7 @@
                         </div>
                     </div>
                     <div class="update">
-                        <img src="images/news/news-5.png" alt="">
+                        <img src="images/news/news-5.jpg" alt="">
                         <div class="update-details">
                             <h1>Messi signs new deal</h1>
                             <p>Messi played 47 games in four different club competitions last season, and scored 38 goals, which break down as follows (he didn’t find the net in the Spanish Super Cup).</p>
@@ -269,16 +271,16 @@
     </main>
     <!-------------------footer starts---------------->
 
-    <footer>
+    <footer class="footer-container" id="footer">
         <div class="footer">
             <div class="footer-logo">
                 <img src="images/Logo.png" alt="">
             </div>
             <div class="footer-icon">
-                <i class="fab fa-facebook icon"></i>
-                <i class="fab fa-instagram icon"></i>
-                <i class="fab fa-twitter icon"></i>
-                <i class="fab fa-youtube icon"></i>
+                <a href="https://www.facebook.com/fcbarcelona" target="_blank"> <i class="fab fa-facebook icon"></i></a>
+                <a href="https://www.instagram.com/fcbarcelona/" target="_blank"> <i class="fab fa-instagram icon"></i></a>
+                <a href="https://www.twitter.com/fcbarcelona/" target="_blank"><i class="fab fa-twitter icon"></i></a>
+                <a href="https://www.youtube.com/fcbarcelona/" target="_blank"><i class="fab fa-youtube icon"></i></a>
             </div>
             <div class="cooyright">
                 <p>Copyright &copy; FC Barcelona </p>
