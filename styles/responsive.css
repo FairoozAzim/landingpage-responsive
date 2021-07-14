@@ -85,10 +85,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 60%;
     }
     .schedule h1,
     p {
         text-align: center;
+    }
+    .schedule-date h3 {
+        text-align: center;
+        margin-left: 10px;
+    }
+    .schedule-date h1 {
+        margin-left: 10px;
     }
     .update-grid {
         grid-template-columns: repeat(1, 1fr);
@@ -186,12 +194,16 @@
     }
     .schedule {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 60%;
+        margin-left: 10px;
     }
     .schedule h1,
     p {
         text-align: center;
+    }
+    .schedule-date h3 {
+        text-align: center;
+        margin-left: 10px;
     }
     .update-grid {
         grid-template-columns: repeat(2, 1fr);
