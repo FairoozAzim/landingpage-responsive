@@ -44,6 +44,14 @@
         width: 80%;
         margin-left: 20px;
     }
+    .player-name {
+        margin-left: 10px;
+        text-align: start;
+        padding: 5px;
+    }
+    .player-name p {
+        text-align: start;
+    }
     .highlights {
         width: 100%;
         flex-direction: column;
@@ -137,6 +145,14 @@
         grid-template-columns: repeat(2, 1fr);
         width: 80%;
         margin-left: 20px;
+    }
+    .player-name {
+        margin-left: 10px;
+        text-align: start;
+        padding: 5px;
+    }
+    .player-name p {
+        text-align: start;
     }
     .highlights {
         width: 100%;

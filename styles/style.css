@@ -130,7 +130,7 @@ main {
 }
 
 .live:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 
@@ -233,6 +233,7 @@ main {
     padding: 10px 24px;
     text-decoration: none;
     margin-top: 24px;
+    transition: all .5s;
 }
 
 .highlight-details a:hover {
