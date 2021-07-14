@@ -87,6 +87,8 @@ main {
 
 .login {
     transition: all .5s;
+    width: 123px;
+    height: 44px;
 }
 
 .login a:hover {
@@ -122,6 +124,8 @@ main {
 }
 
 .live {
+    width: 168px;
+    height: 44px;
     transition: all .5s;
 }
 
