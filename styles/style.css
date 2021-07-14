@@ -289,7 +289,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: -15px;
+    margin-left: -150px;
     margin-bottom: 100px;
     background-color: white;
     box-shadow: var(--shadow-color);
