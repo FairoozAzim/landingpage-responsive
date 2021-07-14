@@ -78,13 +78,14 @@
     }
     .highlight-image img {
         margin-top: 40px;
-        width: 300px;
+        width: 95%;
         height: 250px;
-        margin-right: 10px;
+        margin-right: 5px;
     }
     /* -------------------------------Schedules------------------------------------------ */
     .schedules .title {
         margin-left: 5px;
+        line-height: 70px;
     }
     .schedule {
         flex-direction: column;
